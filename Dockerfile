@@ -7,8 +7,11 @@ RUN npm install -g wrangler@2.15.0
 
 ENV WRANGLER_SEND_METRICS=false
 
+ENV RESOURCE_NAME=""
 ENV DEPLOY_NAME_GPT35=""
+ENV DEPLOY_NAME_GPT35_16K=""
 ENV DEPLOY_NAME_GPT4=""
+ENV DEPLOY_NAME_EMBEDDING_ADA_002=""
 
 # 复制 Workers 脚本到镜像
 COPY cf-openai-azure-proxy.js .
