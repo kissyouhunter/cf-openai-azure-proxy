@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  azure-openai-proxy:
+    image: kissyouhunter/openai-azure-proxy
+    restart: always
+    ports:
+      - 8787:8787
+    environment:
+      RESOURCE_NAME: your-name
+      DEPLOY_NAME_GPT35: gpt3
+      DEPLOY_NAME_GPT35_16K: gpt3-16k
+      DEPLOY_NAME_GPT4: gpt4
+      DEPLOY_NAME_EMBEDDING_ADA_002: embedding
