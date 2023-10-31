@@ -11,5 +11,5 @@ services:
       DEPLOY_NAME_GPT35: xxx  ## azure上设置的名字
       DEPLOY_NAME_GPT35_16K: xxxxx   ## azure上设置的名字
       DEPLOY_NAME_GPT4: gpt4   ## azure上设置的名字，没有4就无视
-      DEPLOY_NAME_GPT4_32K: gpt4-32k   ## azure上设置的名字，没有4就无视
+      #DEPLOY_NAME_GPT4_32K: gpt4-32k   ## azure上设置的名字，没有4就无视
       DEPLOY_NAME_EMBEDDING_ADA_002: xxxxxx  ## azure上设置的名字
